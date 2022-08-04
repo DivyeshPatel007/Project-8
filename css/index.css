@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    background-image: url(/images/backcover.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------NavBar--------------------------------- */
+nav{
+    padding: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 100%;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 50%;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-family: 'roboto';
+    color: #120E43;
+    
+}
+
+.signin-btn{
+    font-size: 1.2rem;
+    font-family: 'roboto';
+    padding: 0.3rem 1.5rem;
+    color: #ffff;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient( to left,#E1A2B8,#9F2BC1);
+}
+/* ---------------------------Main-Section--------------- */
+
+.intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left:2rem  ;
+    height: 50rem;
+    width: 100%;
+}
+
+.left-section h1{
+    font-family: 'roboto';
+    font-size: 8rem;
+    color: #120E43  ;
+}
+.left-section h4{
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    color: #120E43;
+    width: 400px;
+}
+.learn-more-btn{
+    margin-bottom:8rem;
+    font-size: 2.3rem;
+    font-family: 'roboto';
+    padding: 1.5rem 3rem;
+    color: #ffff;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient( to left,#E1A2B8,#9F2BC1);
+}
+.imgs-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs-div img:first-child{
+    align-self: flex-end;
+}
+.imgs-div img:nth-child(2){
+    bottom: 0;
+    left: 5rem;
+    position:absolute;
+    align-self: flex-end;
+    margin-bottom: 7rem;
+}
