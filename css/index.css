@@ -171,19 +171,23 @@ nav {
     }
 
     .left-section {
-        text-align: center;
+        
     }
 
     .learn-more-btn {
-
-        margin: 2.5rem auto;
+        position: relative;
+        left: 6rem;
+        
+        
     }
 
     .left-section h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .left-section h4 {
-        font-size: 1rem;
+        margin-left: 38px;
+        font-size: 0.5rem;
+        width: 380px;
     }
     .imgs-div img:last-child {
     width: 80%;
@@ -213,14 +217,7 @@ nav {
         gap: 20rem;
     }
 
-    .left-section {
-        text-align: center;
-    }
 
-    .learn-more-btn {
-
-        margin: 2.5rem auto;
-    }
 
     .left-section h1 {
         font-size: 7rem;
@@ -249,14 +246,7 @@ nav {
         gap: 10rem;
     }
 
-    .left-section {
-        text-align: center;
-    }
-
-    .learn-more-btn {
-
-        margin: 2.5rem auto;
-    }
+  
 
     .left-section h1 {
         font-size: 7rem;
